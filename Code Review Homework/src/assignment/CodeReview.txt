@@ -1,0 +1,33 @@
+Formatting:
+- Inconsistent case used when declaring variables, snake case must be used.
+- Variables should be declared on separate lines of code.
+- In comments, words should be spaced with a space, not tabs.
+- Inconsistent case used in function names, camel case must be used.
+- Long lines of code should be split on multiple lines.
+- Formatting should be applied.
+
+Meaningful names:
+- The class name should me more representative. (Changed it to BankAccount.)
+- Getter and setter functions should be named correctly.
+- Functions should use intention-revealing names.
+
+Classes:
+- The static ints should be placed in an enum.
+- Classes should be small.
+- The class should be marked as final, if not used for inheritance.
+- Class attributes are set to public, they should be changed to private or protected.
+
+Functions:
+- There are variables that are not used.
+- There are too many variables that store a number. (Magic numbers.)
+- Print lines in getter functions are not good.
+- Use "this." to avoid misunderstanding.
+- The print function is not needed.
+- Exceptions are too general.
+- Unnecessary else statements.
+- To_string function should be renamed toString and set to override.
+- Constructor should initialise days_active.
+
+Comments:
+- Redundant comments are not needed.
+- Comments should be placed as not to make the code harder to read.
