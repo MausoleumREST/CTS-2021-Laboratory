@@ -1,5 +1,8 @@
 package assignment;
 
+import exceptions.IllegalLoanValueException;
+import interfacees.GetMonthlyRate;
+
 public class BankAccount implements GetMonthlyRate {
 	private double loan_value;
 	private double rate;

@@ -1,4 +1,4 @@
-package assignment;
+package exceptions;
 
 public class IllegalLoanValueException extends Exception {
 	public IllegalLoanValueException(Double value) {
